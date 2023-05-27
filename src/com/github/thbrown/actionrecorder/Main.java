@@ -307,7 +307,7 @@ public class Main extends JFrame implements ActionListener, WindowListener {
 	/**
 	 * Executes code for the specified JMenu selection.
 	 * 
-	 * @param eventId	the type of menu button that was clicked
+	 * @param menuId	the type of menu button that was clicked
 	 */
 	private void processMenuSelection(MenuAction menuId) {
 		if(menuId == MenuAction.EXIT) {
